@@ -7,7 +7,7 @@ const headers = {
 exports.handler = async function (event, context) {
     console.log('Request starting');
 
-    // For get requests return a message.
+    // For GET requests return a message.
     // You can have a separate function or reuse this one to support other options like POST, PUT or DELETE.
     if (event.httpMethod === 'GET') {
         console.log('Returning message');
