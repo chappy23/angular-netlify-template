@@ -6,7 +6,6 @@ const headers = {
 
 exports.handler = async function (event, context) {
     console.log('Request starting');
-    console.log(event);
 
     if (event.httpMethod === 'GET') {
         console.log('Returning message');
