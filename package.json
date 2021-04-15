@@ -2,7 +2,7 @@
   "name": "angular-netlify-template",
   "version": "1.0.0",
   "scripts": {
-    "start:client": "ng serve",
+    "start:client": "ng serve --ssl true",
     "start:functions": "netlify-lambda serve functions",
     "build:client": "ng build --prod",
     "build:functions": "netlify-lambda build functions",
